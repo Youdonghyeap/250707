@@ -6,9 +6,9 @@ public class Bird : MonoBehaviour
 {
     public float jumpForce = 3f;
     public float rotateSpeed = 3f;
-    private Rigidbody2D rd;
+    public Rigidbody2D rd;
     private Animator animator;
-    public bool isLive = true;
+    public bool isLive;
     private bool isDeadRotate = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
